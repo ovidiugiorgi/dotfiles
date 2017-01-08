@@ -83,5 +83,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Aliases
+alias github="~/Documents/Github"
+
+# Default user - Hides the user@hostname info when you're logged in as yourself
+export DEFAULT_USER='ovidiu'
+
+# Go paths
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Documents/go
