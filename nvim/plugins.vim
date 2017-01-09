@@ -37,6 +37,7 @@ call dein#add('isRuslan/vim-es6')
 call dein#add('tpope/vim-fugitive')
 call dein#add('christoomey/vim-tmux-navigator')
 call dein#add('vim-airline/vim-airline-themes')
+call dein#add('octol/vim-cpp-enhanced-highlight')
 
 " Required:
 call dein#end()
