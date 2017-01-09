@@ -61,7 +61,7 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 "airline theme
-let g:airline_theme='badwolf'
+let g:airline_theme='bubblegum'
 
 " delimitMate settings
 let delimitMate_expand_cr=1
