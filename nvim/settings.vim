@@ -1,6 +1,7 @@
 " Set color scheme
-let g:seoul256_background = 235
-colo seoul256
+" let g:seoul256_background = 233
+" colo seoul256
+colorscheme Tomorrow-Night-Eighties
 hi Normal ctermbg=none
 
 set relativenumber number " use relative numbers with the current line showing the current line number
