@@ -9,7 +9,6 @@ set softtabstop=2
 set expandtab
 set shiftwidth=2
 set smartindent
-set autoread
 
 " Custom invisibles
 set list
@@ -63,6 +62,9 @@ let g:airline_symbols.linenr = ''
 
 "airline theme
 let g:airline_theme='badwolf'
+
+" delimitMate settings
+let delimitMate_expand_cr=1
 
 " make ultisnips not colide with tab mappings
 let g:UltiSnipsExpandTrigger="<S-j>"
