@@ -1,6 +1,8 @@
 " Set color scheme
+let g:seoul256_srgb = 1
 let g:seoul256_background = 235
-colorscheme seoul256
+colo seoul256
+set background=dark
 syntax enable
 hi Normal ctermbg=none
 
