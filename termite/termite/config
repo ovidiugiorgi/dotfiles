@@ -1,0 +1,45 @@
+[options]
+
+font = Monaco for Powerline 11
+dynamic_title = false
+mouse_autohide = true
+
+[colors]
+
+# special
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = #1d1f21
+
+# black
+color0  = #282a2e
+color8  = #373b41
+
+# red
+color1  = #c43e3e
+color9  = #ff6d6d
+
+# green
+color2  = #afcb00
+color10 = #b0c00c
+
+# yellow
+color3  = #f79237
+color11 = #f0c674
+
+# blue
+color4  = #007cbd
+color12 = #43a5f8
+
+# magenta
+color5  = #7d498e
+color13 = #c857ea
+
+# cyan
+color6  = #3eb3a4
+color14 = #76e8d9
+
+# white
+color7  = #707880
+color15 = #c5c8c6

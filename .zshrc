@@ -85,9 +85,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias github="~/Documents/Github"
+alias tmux="TERM=xterm-256color tmux"
 
 # Default user - Hides the user@hostname info when you're logged in as yourself
 export DEFAULT_USER='ovidiu'
+
+# Term
+export TERM=xterm-256color tmux
 
 # Go paths
 export PATH=$PATH:/usr/local/go/bin

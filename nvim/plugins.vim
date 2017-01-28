@@ -38,8 +38,9 @@ call dein#add('tpope/vim-fugitive')
 call dein#add('christoomey/vim-tmux-navigator')
 call dein#add('vim-airline/vim-airline-themes')
 call dein#add('octol/vim-cpp-enhanced-highlight')
-call dein#add('valloric/youcompleteme')
 call dein#add('edkolev/tmuxline.vim')
+call dein#add('altercation/vim-colors-solarized')
+call dein#add('jelera/vim-javascript-syntax')
 
 " Required:
 call dein#end()
