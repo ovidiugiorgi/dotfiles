@@ -1,10 +1,11 @@
 " Set color scheme
-let g:seoul256_srgb = 1
-let g:seoul256_background = 235
-colo seoul256
+" let g:seoul256_srgb = 1
+" let g:seoul256_background = 235
+set t_Co=256
 set background=dark
-syntax enable
-hi Normal ctermbg=none
+colo solarized
+hi Normal ctermbg=None
+hi nonText ctermbg=None
 
 set relativenumber number " use relative numbers with the current line showing the current line number
 set tabstop=2
@@ -64,7 +65,7 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 "airline theme
-let g:airline_theme='bubblegum'
+let g:airline_theme='solarized'
 
 " delimitMate settings
 let delimitMate_expand_cr=1
