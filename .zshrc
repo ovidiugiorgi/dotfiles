@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias github="~/Documents/Github"
 alias tmux="TERM=xterm-256color tmux"
+alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
 
 # Default user - Hides the user@hostname info when you're logged in as yourself
 export DEFAULT_USER='ovidiu'
