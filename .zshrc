@@ -49,7 +49,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent)
+plugins=(git ssh-agent vim)
 
 # User configuration
 
@@ -87,8 +87,8 @@ source $ZSH/oh-my-zsh.sh
 alias github="~/Documents/Github"
 alias tmux="TERM=xterm-256color tmux"
 alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
-alias ttf2eot="~/Documents/Github/ttf2eot/ttf2eot"
 alias vimconfig="vim ~/.config/nvim"
+alias python=python3
 
 # Default user - Hides the user@hostname info when you're logged in as yourself
 export DEFAULT_USER='ovidiu'
@@ -102,3 +102,6 @@ export EDITOR='nvim'
 # Go paths
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Documents/go
+
+# Node
+export PATH=$PATH:/usr/lib/node_modules
