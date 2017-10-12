@@ -1,11 +1,13 @@
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/ovidiugiorgi/.oh-my-zsh
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -24,7 +26,7 @@ ZSH_THEME="agnoster"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-DISABLE_AUTO_TITLE="true"
+# DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -49,14 +51,13 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent vim)
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -72,7 +73,9 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/id_rsa"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+export DEFAULT_USER="ovidiugiorgi"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -83,25 +86,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export PATH=/usr/local/mysql/bin:$PATH
+
 # Aliases
-alias github="~/Documents/Github"
-alias tmux="TERM=xterm-256color tmux"
-alias vim="NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim"
-alias vimconfig="vim ~/.config/nvim"
-alias python=python3
 
-# Default user - Hides the user@hostname info when you're logged in as yourself
-export DEFAULT_USER='ovidiu'
-
-# Term
-export TERM=xterm-256color tmux
-
-# Editor
-export EDITOR='nvim'
-
-# Go paths
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/Documents/go
-
-# Node
-export PATH=$PATH:/usr/lib/node_modules
+# Git aliases
+alias ggpull="git pull origin HEAD"
+alias ggpush="git push origin HEAD"
+alias ggl="git log"
+alias ggs="git status -s"
+alias ggmm="git merge master"
+alias ggc="git add . && git commit"
+alias gga="git add . && git commit --amend"
+alias ggb="git branch"
+alias ggck="git checkout -b"
+alias ggd="git diff"
