@@ -1,0 +1,17 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+w","command": "expand_region", "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+w","command": "undo_expand_region", "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeActiveEditor"
+  }
+]
