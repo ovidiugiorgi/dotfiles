@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite the default settings
+{
+      "editor.fontSize": 13,
+      "editor.tabSize": 2,
+      "workbench.colorTheme": "Solarized Light",
+}
