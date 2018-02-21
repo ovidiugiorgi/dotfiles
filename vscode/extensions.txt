@@ -1,0 +1,17 @@
+Angular.ng-template
+PKief.material-icon-theme
+WallabyJs.quokka-vscode
+WallabyJs.wallaby-vscode
+arcticicestudio.nord-visual-studio-code
+dbaeumer.vscode-eslint
+eg2.tslint
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+johnpapa.Angular2
+letrieu.expand-region
+natewallace.angular2-inline
+pawelgrzybek.bimbo-theme
+pnp.polacode
+robertohuertasm.vscode-icons
+shd101wyy.markdown-preview-enhanced
