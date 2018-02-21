@@ -1,6 +1,23 @@
-// Place your settings in this file to overwrite the default settings
 {
-      "editor.fontSize": 13,
-      "editor.tabSize": 2,
-      "workbench.colorTheme": "Solarized Light",
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Nord",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Input Mono",
+  "editor.tokenColorCustomizations": {
+    "[Nord]": {
+      "textMateRules": [
+        {
+          "name": "Comment",
+          "scope": "comment",
+          "settings": {
+            "foreground": "#616e88"
+          }
+        }
+      ]
+    }
+  }
 }
