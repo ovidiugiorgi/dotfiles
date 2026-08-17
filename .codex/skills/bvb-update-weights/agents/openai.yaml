@@ -1,0 +1,6 @@
+interface:
+  display_name: "Update BVB Portfolio"
+  short_description: "Update BET weights and build a checked buy draft"
+  default_prompt: "Use $bvb-update-weights to update the official BET weights, prepare the fee-aware allocation draft, and verify both independently."
+policy:
+  allow_implicit_invocation: false

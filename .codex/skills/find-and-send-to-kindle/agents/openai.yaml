@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find and Send to Kindle"
+  short_description: "Find, prepare, and deliver Kindle books"
+  default_prompt: "Use $find-and-send-to-kindle to find an authorized ebook, optimize it for my Kindle, and send it to my Kindle address."

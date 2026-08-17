@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+*.log
+*.tmp
+*~
+
+.codex/**/__pycache__/
+.codex/**/*.pyc
+.codex/**/downloads/
+.codex/**/outputs/
+.codex/**/work/
