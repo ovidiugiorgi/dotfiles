@@ -4,9 +4,16 @@
 *.log
 *.tmp
 *~
+viminfo
+.viminfo
 
-.codex/**/__pycache__/
-.codex/**/*.pyc
-.codex/**/downloads/
-.codex/**/outputs/
-.codex/**/work/
+**/__pycache__/
+**/*.pyc
+codex/.codex/**/downloads/
+codex/.codex/**/outputs/
+codex/.codex/**/work/
+codex/.codex/**/.env
+codex/.codex/**/.env.*
+codex/.codex/**/credentials*
+codex/.codex/**/secrets*
+codex/.codex/**/*.local.*
