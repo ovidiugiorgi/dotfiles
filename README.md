@@ -4,22 +4,29 @@ A small collection of personal shell, editor, terminal, and Codex settings.
 
 ## GNU Stow
 
-Newly managed areas use Stow packages; the older shell and editor files remain
-in their legacy layout for now. The first package is `codex/`, which maps into
-your home directory, so `codex/.codex/skills/...` becomes
-`~/.codex/skills/...`.
+Managed areas use Stow packages that map into your home directory:
+
+- `zsh/.zshrc` becomes `~/.zshrc`.
+- `codex/.codex/skills/...` becomes `~/.codex/skills/...`.
+
+The older editor and terminal files remain in their legacy layout.
 
 The tracked Codex skills are:
 
 - `bvb-update-weights`
 - `find-and-send-to-kindle`
 
-Install GNU Stow on macOS, then link the package:
+Install GNU Stow on macOS, then link the packages:
 
 ```sh
 brew install stow
 ./install.sh
 ```
+
+For an existing regular `~/.zshrc`, first copy its contents to `zsh/.zshrc`
+and move the original to a backup outside the repo. Then run `./install.sh`.
+Once linked, edits to `~/.zshrc` edit the tracked file directly; commit and
+push those changes to sync them to GitHub.
 
 Remove the managed links with `./install.sh delete`.
 
