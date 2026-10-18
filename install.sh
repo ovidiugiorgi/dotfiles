@@ -23,4 +23,4 @@ case ${1:-install} in
 esac
 
 mkdir -p "$target_dir"
-exec stow "$mode" --no-folding --dir="$repo_dir" --target="$target_dir" codex zsh
+exec stow "$mode" --no-folding --dir="$repo_dir" --target="$target_dir" codex zsh herdr ghostty

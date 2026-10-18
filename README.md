@@ -7,7 +7,12 @@ A small collection of personal shell, editor, terminal, and Codex settings.
 Managed areas use Stow packages that map into your home directory:
 
 - `zsh/.zshrc` becomes `~/.zshrc`.
+- `herdr/.config/herdr/config.toml` becomes `~/.config/herdr/config.toml`.
+- `ghostty/.config/ghostty/config` becomes `~/.config/ghostty/config`.
 - `codex/.codex/skills/...` becomes `~/.codex/skills/...`.
+
+Herdr sessions, snapshots, logs, locks, sockets, and config backups stay local.
+Only the active Herdr and Ghostty configuration files are managed.
 
 The older editor and terminal files remain in their legacy layout.
 

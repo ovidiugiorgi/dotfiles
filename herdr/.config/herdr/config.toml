@@ -1,0 +1,5 @@
+onboarding = false
+
+# Show the Codex session title in the agents sidebar.
+[ui.sidebar.agents.rows_by_agent]
+codex = [["state_icon", "machine", "workspace", "tab"], ["terminal_title_stripped"]]

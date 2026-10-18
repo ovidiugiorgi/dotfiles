@@ -1,0 +1,8 @@
+.*\.log
+.*\.lock
+.*\.sock.*
+session\.json
+session-snapshots
+.*\.before-.*
+.*\.backup-.*
+\.DS_Store
